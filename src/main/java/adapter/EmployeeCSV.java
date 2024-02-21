@@ -25,6 +25,7 @@ public class EmployeeCSV {
 		}
 	}
 
+
 	public String getEmailAddress() {
 		return emailAddress;
 	}
@@ -57,4 +58,13 @@ public class EmployeeCSV {
 		this.lastname = lastname;
 	}
 
+	@Override
+	public String toString() {
+		return "EmployeeCSV{" +
+				"id=" + id +
+				", firstname='" + firstname + '\'' +
+				", lastname='" + lastname + '\'' +
+				", emailAddress='" + emailAddress + '\'' +
+				'}';
+	}
 }

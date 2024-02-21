@@ -12,3 +12,4 @@ public class AdapterDemo {
 		System.out.println(employees);
 	}
 }
+
